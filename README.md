@@ -23,9 +23,9 @@ So, simple right? Have fun!<br/>
 <br/>
 <h2>Playfair Encryption Decryption Tools Ver. 1.0.2</h2>
 <strong>Change Log</strong>:<br/>
-1. Fixing Output. Now in ecrpytion method, the output will added with white space every 2 characters.<br/>
+1. Fixing Output. Now in encryption method, the output will added with white space every 2 characters.<br/>
 2. Fixing Input. In decryption method, all white space in Input will be removed<br/>
 <br/>
 <strong>SCREENSHOT V.1.0.2</strong><br/>
-<img src="http://cdn.unydevelopernetwork.com/mil-system/playfait/snap_28.png" width="500"/><br/>
-<img src="http://cdn.unydevelopernetwork.com/mil-system/playfait/snap_29.png" width="500"/><br/>
+<img src="http://cdn.unydevelopernetwork.com/mil-system/playfait/snap_30.png" width="500"/><br/>
+<img src="http://cdn.unydevelopernetwork.com/mil-system/playfait/snap_31.png" width="500"/><br/>
