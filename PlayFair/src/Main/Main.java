@@ -94,6 +94,21 @@ public class Main extends javax.swing.JFrame {
         }
         else{
             result = pf.TextEncoder(key, inputValue.getText(), jtiskey);
+            char[] x = result.toCharArray();
+            result = "";
+            for(int i = 0; i < x.length; i++){
+                if(i%2 == 0){
+                    if(i == 0){
+                        result = result + x[i];
+                    }
+                    else{
+                        result = result + " " + x[i];
+                    }
+                }
+                else{
+                    result = result + x[i];
+                }
+            }
             outputValue.setText(result);
         }
     }
@@ -105,7 +120,7 @@ public class Main extends javax.swing.JFrame {
             showToast("The key must be at least 6 characters long");
         }
         else{
-            result = pf.TextDecoder(key, inputValue.getText(), jtiskey);
+            result = pf.TextDecoder(key, inputValue.getText().replaceAll("\\s+",""), jtiskey);
             outputValue.setText(result);
         }
     }
